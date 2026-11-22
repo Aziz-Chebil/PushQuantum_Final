@@ -129,7 +129,7 @@ README.
 
 ## Team
 
-Aziz Chebil, Ayoub Lefi, Mohamed Amine Abidi, Ahmed Amine Loukil, Wassim Zaourmati.
+Aziz Chebil, Ayoub Lefi, Mohamed Amine Abidi, Ahmed Amine Loukil, Wassim zormati.
 Built on the IQM PushQuantum challenge starter kit. Referenced papers (Google Quantum AI,
 Nature 2021, 2023, 2024) are cited in
 [circuit_optimization/PAPER_STUDY.md](circuit_optimization/PAPER_STUDY.md).
