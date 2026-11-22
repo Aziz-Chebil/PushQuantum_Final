@@ -1,0 +1,63 @@
+{
+ "stamp": "20261121-120000",
+ "rounds": [
+  1,
+  2,
+  3
+ ],
+ "basis": "Z",
+ "shots": 1000,
+ "quantum_computer": "emerald",
+ "fake": false,
+ "jobs": [
+  {
+   "dd": false,
+   "job_id": "01a1fdf8-e4fa-766b-b916-02e343ebdde3"
+  }
+ ],
+ "layout": {
+  "0": 10,
+  "10": 9,
+  "3": 17,
+  "11": 18,
+  "1": 19,
+  "4": 26,
+  "9": 20,
+  "2": 28,
+  "12": 27,
+  "5": 35,
+  "13": 25,
+  "6": 24,
+  "7": 33,
+  "14": 34,
+  "8": 42,
+  "15": 43,
+  "16": 32
+ },
+ "physical": {
+  "0": "QB11",
+  "10": "QB10",
+  "3": "QB18",
+  "11": "QB19",
+  "1": "QB20",
+  "4": "QB27",
+  "9": "QB21",
+  "2": "QB29",
+  "12": "QB28",
+  "5": "QB36",
+  "13": "QB26",
+  "6": "QB25",
+  "7": "QB34",
+  "14": "QB35",
+  "8": "QB43",
+  "15": "QB44",
+  "16": "QB33"
+ },
+ "calibration_file": "C:/Users/MSI/Desktop/QEC-Emerald/data/calibration_emerald_20261121T115810Z.json",
+ "depths": [
+  11,
+  20,
+  29
+ ],
+ "note": "first Emerald test; submitted ~12:0x before job persistence existed, params reconstructed"
+}

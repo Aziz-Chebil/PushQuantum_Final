@@ -1,0 +1,26 @@
+[
+ {
+  "region": "patch A (main)",
+  "measured": 0.028201096263913702,
+  "pred_calibration": 0.041247185170107864,
+  "pred_char": 0.052631230217741916
+ },
+ {
+  "region": "region 1",
+  "measured": 0.041125217743187406,
+  "pred_calibration": 0.038623197702842435,
+  "pred_char": 0.06375733288613013
+ },
+ {
+  "region": "region 2",
+  "measured": 0.03490969371693391,
+  "pred_calibration": 0.0364311145080667,
+  "pred_char": 0.05425824519761218
+ },
+ {
+  "region": "region 3",
+  "measured": 0.03263520922110915,
+  "pred_calibration": 0.03234523685350354,
+  "pred_char": 0.043887081284595585
+ }
+]
