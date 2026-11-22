@@ -11,7 +11,7 @@ import json
 import os
 import time
 from datetime import datetime, timezone
-from pathlib import Path
+from pathlib import Path, PureWindowsPath
 
 import numpy as np
 import stim
@@ -286,6 +286,13 @@ def load_run(path: Path) -> dict:
     z = np.load(path, allow_pickle=False)
     out = {k: z[k] for k in z.files if k != "meta"}
     out.update(json.loads(str(z["meta"])))
+    cal = out.get("calibration_file")
+    if cal:
+        # Runs store the absolute path of the machine that took them; resolve it
+        # by file name in data/ so the analysis works from any clone.
+        # PureWindowsPath splits on both "\" and "/" on every OS.
+        local = DATA_DIR / PureWindowsPath(cal).name
+        out["calibration_file"] = str(local if local.exists() else cal)
     return out
 
 
