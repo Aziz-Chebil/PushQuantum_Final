@@ -1,0 +1,24 @@
+# Qrisp-track surface-code QEC on IQM Emerald — dependencies
+# Python >= 3.11.  Resonance server: https://resonance.iqm.tech
+#
+#   python -m venv .venv
+#   .venv/Scripts/python -m pip install -r requirements.txt      # Windows
+#   .venv/bin/python     -m pip install -r requirements.txt      # Linux/Mac
+
+# --- IQM hardware access (Resonance) + Qrisp integration ---
+iqm-client[qrisp]==35.0.3      # provides iqm.qrisp_iqm (IQMBackend, DetectorExperiment, vf2pp_layout)
+qrisp==0.9.9
+
+# --- circuit definition / conversion ---
+stim==1.16.0                   # surface-code circuit generation + detector error models
+qiskit==2.1.2                  # imported by the scaffold (surface_code.py); iqm-client needs qiskit<2.2
+
+# --- decoding ---
+pymatching==2.4.0              # MWPM and correlated MWPM
+ldpc==2.4.1                    # BP+OSD decoder (optional; needs numpy<=2.2.6)
+beliefmatching==0.2.0          # belief-matching + DEM->check-matrix helpers (optional)
+numpy==2.2.6                   # pinned for ldpc compatibility
+
+# --- fitting + plots ---
+scipy                          # epsilon_L fit (curve_fit)
+matplotlib                     # P_L vs rounds figures + PDF reports
