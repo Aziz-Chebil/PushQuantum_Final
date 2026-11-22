@@ -73,9 +73,7 @@ pass `--peer ../pipeline`.
 
 ## Team
 
-Aziz Chebil ([PushQuantum_2026](https://github.com/Aziz-Chebil/PushQuantum_2026)),
-Ayoub Lefi ([IQM_Research](https://github.com/ayoublefi2020-ctrl/IQM_Research)),
-Mohamed Amine Abidi ([testhackathon](https://github.com/amine20011111/testhackathon)).
+Aziz Chebil, Ayoub Lefi, Mohamed Amine Abidi, Mohamed Amine Loukil, Wassim Zaourmati.
 Built on the IQM PushQuantum challenge starter kit. Papers referenced (Google Quantum AI,
 Nature 2021, 2023, 2024) are cited by DOI in
 [circuit_optimization/PAPER_STUDY.md](circuit_optimization/PAPER_STUDY.md).
