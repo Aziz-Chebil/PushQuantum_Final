@@ -1,0 +1,278 @@
+[
+ {
+  "circuit": "pipeline (Aziz)",
+  "qubits": "Aziz patch",
+  "run": "Z, DD on, 21 Nov 15:19",
+  "failures": [
+   115,
+   219,
+   311,
+   387,
+   452
+  ],
+  "shots": [
+   4000,
+   4000,
+   4000,
+   4000,
+   4000
+  ],
+  "eps": 0.026543663813604488,
+  "eps_err": 0.000707414150373453,
+  "eps_from_r2": 0.026358508534831675,
+  "eps_from_r2_err": 0.0007335376357107318
+ },
+ {
+  "circuit": "pipeline (Aziz)",
+  "qubits": "Aziz patch",
+  "run": "Z, DD on, 21 Nov 21:08 (cal. ecec1d0a)",
+  "failures": [
+   71,
+   97,
+   148,
+   202,
+   235
+  ],
+  "shots": [
+   2000,
+   2000,
+   2000,
+   2000,
+   2000
+  ],
+  "eps": 0.026965488495288046,
+  "eps_err": 0.0010093318131837476,
+  "eps_from_r2": 0.026248764228061234,
+  "eps_from_r2_err": 0.0010346786510248666
+ },
+ {
+  "circuit": "pipeline (Aziz)",
+  "qubits": "Aziz patch",
+  "run": "X, DD on, 21 Nov",
+  "failures": [
+   112,
+   196,
+   290,
+   389,
+   470
+  ],
+  "shots": [
+   4000,
+   4000,
+   4000,
+   4000,
+   4000
+  ],
+  "eps": 0.02601958961444469,
+  "eps_err": 0.000699342938431438,
+  "eps_from_r2": 0.025854018692306757,
+  "eps_from_r2_err": 0.0007253293639289522
+ },
+ {
+  "circuit": "circuit_optimization (Ayoub)",
+  "qubits": "Aziz patch",
+  "run": "Qiskit control, run 1 (cal. ecec1d0a)",
+  "failures": [
+   48,
+   153,
+   223,
+   310,
+   427
+  ],
+  "shots": [
+   4000,
+   4000,
+   4000,
+   4000,
+   4000
+  ],
+  "eps": 0.020423320000810215,
+  "eps_err": 0.0006110540657436028,
+  "eps_from_r2": 0.0211044356803317,
+  "eps_from_r2_err": 0.0006469779121741449
+ },
+ {
+  "circuit": "circuit_optimization (Ayoub)",
+  "qubits": "Aziz patch",
+  "run": "Qrisp control, run 1",
+  "failures": [
+   43,
+   129,
+   228,
+   310,
+   398
+  ],
+  "shots": [
+   4000,
+   4000,
+   4000,
+   4000,
+   4000
+  ],
+  "eps": 0.01944066882613153,
+  "eps_err": 0.0005947863068158751,
+  "eps_from_r2": 0.020139148897479676,
+  "eps_from_r2_err": 0.0006304164656390227
+ },
+ {
+  "circuit": "circuit_optimization (Ayoub)",
+  "qubits": "Aziz patch",
+  "run": "Qiskit control, rerun x4 (cal. ecec1d0a)",
+  "failures": [
+   162,
+   636,
+   963,
+   1295,
+   1748
+  ],
+  "shots": [
+   16000,
+   16000,
+   16000,
+   16000,
+   16000
+  ],
+  "eps": 0.021168056993451857,
+  "eps_err": 0.0003115939571634894,
+  "eps_from_r2": 0.022065803878599268,
+  "eps_from_r2_err": 0.00033162263515989533
+ },
+ {
+  "circuit": "circuit_optimization (Ayoub)",
+  "qubits": "Aziz patch",
+  "run": "Qrisp control, rerun x4",
+  "failures": [
+   161,
+   653,
+   977,
+   1407,
+   1778
+  ],
+  "shots": [
+   16000,
+   16000,
+   16000,
+   16000,
+   16000
+  ],
+  "eps": 0.021972003301750056,
+  "eps_err": 0.00031806038453308766,
+  "eps_from_r2": 0.02294530839396056,
+  "eps_from_r2_err": 0.0003389542285986195
+ },
+ {
+  "circuit": "circuit_optimization (Ayoub)",
+  "qubits": "Aziz patch",
+  "run": "Qiskit twirled, rerun x4",
+  "failures": [
+   172,
+   659,
+   1003,
+   1379,
+   1764
+  ],
+  "shots": [
+   16000,
+   16000,
+   16000,
+   16000,
+   16000
+  ],
+  "eps": 0.02197754654066839,
+  "eps_err": 0.0003181173923395267,
+  "eps_from_r2": 0.022895057817050098,
+  "eps_from_r2_err": 0.0003385485567600096
+ },
+ {
+  "circuit": "circuit_optimization (Ayoub)",
+  "qubits": "Aziz patch",
+  "run": "Qrisp twirled, rerun x4",
+  "failures": [
+   175,
+   583,
+   886,
+   1347,
+   1814
+  ],
+  "shots": [
+   16000,
+   16000,
+   16000,
+   16000,
+   16000
+  ],
+  "eps": 0.021170434904758312,
+  "eps_err": 0.0003115788843883813,
+  "eps_from_r2": 0.022001946273053435,
+  "eps_from_r2_err": 0.00033104028619336155
+ },
+ {
+  "circuit": "qrisp_track (Amine)",
+  "qubits": "own patch (auto)",
+  "run": "SI1000 re-decode",
+  "failures": [
+   47,
+   136,
+   247,
+   298,
+   368
+  ],
+  "shots": [
+   4000,
+   4000,
+   4000,
+   4000,
+   4000
+  ],
+  "eps": 0.019221557025595252,
+  "eps_err": 0.000591202029779772,
+  "eps_from_r2": 0.019821226423225008,
+  "eps_from_r2_err": 0.0006249877399500101
+ },
+ {
+  "circuit": "qrisp_track (Amine)",
+  "qubits": "own patch (auto)",
+  "run": "twirl study, control",
+  "failures": [
+   25,
+   48,
+   107,
+   155,
+   176
+  ],
+  "shots": [
+   2000,
+   2000,
+   2000,
+   2000,
+   2000
+  ],
+  "eps": 0.017857677331799816,
+  "eps_err": 0.0008032055093662003,
+  "eps_from_r2": 0.018283719614132745,
+  "eps_from_r2_err": 0.0008453800449510927
+ },
+ {
+  "circuit": "qrisp_track (Amine)",
+  "qubits": "own patch (auto)",
+  "run": "twirl study, twirled (extra gates)",
+  "failures": [
+   41,
+   72,
+   143,
+   173,
+   244
+  ],
+  "shots": [
+   2000,
+   2000,
+   2000,
+   2000,
+   2000
+  ],
+  "eps": 0.023895013506726844,
+  "eps_err": 0.0009425399456589047,
+  "eps_from_r2": 0.024175230759611144,
+  "eps_from_r2_err": 0.0009871684957359495
+ }
+]
